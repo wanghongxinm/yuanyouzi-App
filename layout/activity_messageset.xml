@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <ImageButton
+            android:id="@+id/ms_back"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bg_recommended"
+            android:elevation="10dp"
+            android:src="@drawable/ic_back"
+            tools:ignore="ContentDescription" />
+
+
+        <LinearLayout
+            android:id="@+id/ms_l_1"
+            android:layout_below="@id/ms_back"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/button_back"
+                android:layout_marginStart="25dp"
+                android:fontFamily="@font/nunito_bold"
+                android:gravity="center_vertical"
+                android:text="@string/Mst1"
+                android:textSize="18sp"
+                tools:ignore="ObsoleteLayoutParam" />
+
+            <Switch
+                android:id="@+id/ms1_status"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:checked="true"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/ms_v1"
+            android:layout_below="@id/ms_l_1"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/bg_search" />
+
+        <LinearLayout
+            android:id="@+id/ms_l_2"
+            android:layout_below="@id/ms_v1"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/button_back"
+            android:layout_marginStart="25dp"
+            android:fontFamily="@font/nunito_bold"
+            android:gravity="center_vertical"
+            android:text="@string/Mst2"
+            android:textSize="18sp"
+            tools:ignore="ObsoleteLayoutParam" />
+
+            <Switch
+                android:id="@+id/ms2_status"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:checked="true"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/ms_v2"
+            android:layout_below="@id/ms_l_2"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/bg_search" />
+
+        <LinearLayout
+            android:id="@+id/ms_l_3"
+            android:layout_below="@id/ms_v2"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/button_back"
+                android:layout_marginStart="25dp"
+                android:fontFamily="@font/nunito_bold"
+                android:gravity="center_vertical"
+                android:text="@string/Mst3"
+                android:textSize="18sp"
+                tools:ignore="ObsoleteLayoutParam" />
+
+            <Switch
+                android:id="@+id/ms3_status"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:checked="true"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/ms_v3"
+            android:layout_below="@id/ms_l_3"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/bg_search" />
+
+        <LinearLayout
+            android:id="@+id/ms_l_4"
+            android:layout_below="@id/ms_v3"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/button_back"
+                android:layout_marginStart="25dp"
+                android:fontFamily="@font/nunito_bold"
+                android:gravity="center_vertical"
+                android:text="@string/Mst4"
+                android:textSize="18sp"
+                tools:ignore="ObsoleteLayoutParam" />
+
+            <Switch
+                android:id="@+id/ms4_status"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:checked="true"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/ms_v4"
+            android:layout_below="@id/ms_l_4"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/bg_search" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

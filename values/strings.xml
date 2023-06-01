@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">元柚子</string>
+    <string name="app_name_1">欢迎来到元柚子</string>
+
+    <string name="menu_home">主页</string>
+    <string name="map">元柚子其他作品</string>
+    <string name="notify">官方通告</string>
+    <string name="notify_1">游戏通告</string>
+    <string name="notify_2">游戏道具</string>
+    <string name="activity_name">活动名称：第一活动</string>
+    <string name="activity_time">活动时间：三月21–28</string>
+    <string name="activity_content">活动内容：新玩法重磅来袭！</string>
+
+
+    <string name="menu_notification">通知</string>
+    <string name="My_Account">玩家：</string>
+    <string name="message_1">我发布的消息</string>
+    <string name="message_2">回复我的消息</string>
+    <string name="message_3">艾特我的消息</string>
+    <string name="message_4">系统消息</string>
+
+    <string name="chat_robot">智能聊天</string>
+    <string name="input_text">输入</string>
+    <string name="btn_send">发送</string>
+
+
+    <string name="menu_message">我的</string>
+    <string name="Account">账号与安全</string>
+    <string name="Account_1">请先登录</string>
+    <string name="singIn">登录</string>
+    <string name="register">注册</string>
+    <string name="register_jump">确定修改</string>
+    <string name="userName">请输入您的账号</string>
+    <string name="userConsiderations">您的密保答案无法修改，请慎重设置</string>
+    <string name="userPassword">请输入您的密码</string>
+
+    <string name="Account_2">密码修改</string>
+    <string name="Account_3">切换账号</string>
+    <string name="Account_4">退出账号</string>
+    <string name="Account_5">15020345</string>
+    <string name="Account_6">登录</string>
+    <string name="Account_8">注册</string>
+
+    <string-array name="cityArray">
+        <item>您年少时最好的朋友</item>
+        <item>您最喜欢的颜色</item>
+        <item>您就读的小学名称</item>
+    </string-array>
+    <string name="Account_9">确定</string>
+
+
+    <string name="set">消息通知</string>
+    <string name="Mst1">新消息通知</string>
+    <string name="Mst2">我发布的消息通知</string>
+    <string name="Mst3">回复我的消息通知</string>
+    <string name="Mst4">系统消息通知</string>
+    <string name="Account_7">消息</string>
+
+    <string name="help">帮助</string>
+    <string name="Ap1">版本更新</string>
+    <string name="Ap2">功能介绍</string>
+    <string name="Ap3">服务协议</string>
+    <string name="Ap4">隐私政策</string>
+    <string name="Ap5">官方电话：0854-XXXX-XXXX</string>
+    <string name="Ap6">Copyright©2023 Wang</string>
+    <string name="Ap7">已经是最新版</string>
+    <string name="Ap8">有新版本</string>
+
+    <string name="Feedback">反馈</string>
+    <string name="Fb1">账号</string>
+    <string name="Fb2">反馈给我们</string>
+    <string name="Fb3">问题描述</string>
+    <string name="Fb4">问题类别</string>
+
+    <string name="About_me">关于我们</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="version_app">version 1.1</string>
+    <string name="recommended">Recommended</string>
+    <string name="more">More</string>
+    <string name="dry_cleaning">Dry Cleaning</string>
+    <string name="wash_and_iron"><![CDATA[Wash & Iron]]></string>
+    <string name="ironing">Ironing</string>
+    <string name="choose_services">Choose Services</string>
+</resources>

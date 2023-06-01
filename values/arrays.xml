@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="shipping_type">
+        <item>软件问题</item>
+        <item>游戏问题</item>
+        <item>其他问题</item>
+    </string-array>
+</resources>

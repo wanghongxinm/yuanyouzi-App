@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/ap_back"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/bg_recommended"
+        android:elevation="10dp"
+        android:src="@drawable/ic_back"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/ap_L_1"
+        android:layout_below="@id/ap_back"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@color/white"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="vertical"
+        android:paddingStart="16dp"
+        tools:ignore="RtlSymmetry">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_laundry"
+            android:tint="@color/white"
+            app:civ_border_color="@android:color/white"
+            app:civ_border_width="3dp" />
+
+        <TextView
+            android:id="@+id/atv_name_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/nunito_black"
+            android:gravity="center_horizontal"
+            android:text="@string/app_name"
+            android:textColor="@color/dark_late_gray"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:fontFamily="@font/nunito_bold"
+            android:text="@string/version_app"
+            android:textColor="@color/dark_late_gray"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ap_L_2"
+        android:layout_below="@id/ap_L_1"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Ap_T_1"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:fontFamily="@font/nunito_bold"
+            android:gravity="center_vertical"
+            android:text="@string/Ap1"
+            android:textSize="18sp"
+            tools:ignore="ObsoleteLayoutParam" />
+
+        <TextView
+            android:id="@+id/Ap_T_2"
+            android:visibility="visible"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:fontFamily="@font/nunito_bold"
+            android:gravity="center_vertical"
+            android:text="@string/Ap7"
+            android:textSize="18sp"
+            tools:ignore="ObsoleteLayoutParam" />
+
+        <TextView
+            android:id="@+id/Ap_T_22"
+            android:visibility="gone"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:fontFamily="@font/nunito_bold"
+            android:gravity="center_vertical"
+            android:text="@string/Ap8"
+            android:textSize="18sp"
+            android:textColor="@color/cardview_dark_background"
+            tools:ignore="ObsoleteLayoutParam" />
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/ms_v1"
+        android:layout_below="@id/ap_L_2"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/bg_search" />
+
+    <LinearLayout
+        android:id="@+id/ap_L_3"
+        android:layout_below="@id/ap_L_2"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/Ap_T_3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:fontFamily="@font/nunito_bold"
+            android:gravity="center_vertical"
+            android:text="@string/Ap2"
+            android:textSize="18sp"
+            tools:ignore="ObsoleteLayoutParam" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/ms_v2"
+        android:layout_below="@id/ap_L_3"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/bg_search" />
+
+    <LinearLayout
+        android:id="@+id/ap_L_4"
+        android:layout_below="@id/ap_L_3"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/Ap_T_4"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="25dp"
+            android:fontFamily="@font/nunito_bold"
+            android:gravity="center"
+            android:text="@string/Ap3"
+            android:textSize="18sp"
+            tools:ignore="ObsoleteLayoutParam" />
+
+        <View
+            android:id="@+id/ms_v3"
+            android:layout_below="@id/Ap_T_1"
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/bg_search"
+            tools:ignore="ObsoleteLayoutParam" />
+
+        <TextView
+            android:id="@+id/Ap_T_5"
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="25dp"
+            android:fontFamily="@font/nunito_bold"
+            android:text="@string/Ap4"
+            android:textSize="18sp"
+            tools:ignore="ObsoleteLayoutParam" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/ms_v4"
+        android:layout_below="@id/ap_L_4"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/bg_search" />
+
+
+    <TextView
+        android:id="@+id/Ap_T_6"
+        android:layout_below="@id/ap_L_4"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="@font/nunito_bold"
+        android:gravity="center_vertical"
+        android:text="@string/Ap5"
+        android:textSize="18sp"
+        tools:ignore="ObsoleteLayoutParam" />
+
+    <TextView
+        android:layout_below="@id/Ap_T_6"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="90dp"
+        android:fontFamily="@font/nunito_bold"
+        android:gravity="center_vertical"
+        android:text="@string/Ap6"
+        android:textSize="18sp"
+        tools:ignore="ObsoleteLayoutParam" />
+</RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/silver"
+    tools:context=".menu.home.home_detail.HomeDetailActivity">
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/bg_message" />
+
+    <ImageButton
+        android:id="@+id/button_back"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/bg_recommended"
+        android:elevation="10dp"
+        android:src="@drawable/ic_back" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/bg_half_rounded_dark"
+        android:orientation="vertical">
+
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="20dp"
+                android:id="@+id/text_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:src="@drawable/bg_header"
+                android:fontFamily="@font/nunito_black"
+                android:text="@string/activity_name"
+                android:textColor="@color/dark_late_gray"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"
+                android:id="@+id/text_time"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="@font/nunito_black"
+                android:text="@string/activity_time"
+                android:textColor="@color/dark_late_gray"
+                android:textSize="20sp" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:id="@+id/text_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_black"
+            android:text="@string/activity_content"
+            android:textColor="@color/dark_late_gray"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+</RelativeLayout>
